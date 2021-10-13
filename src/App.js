@@ -4,6 +4,7 @@ import Song from "./components/Song";
 import {FontAewsomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlay} from "@fortawesome/free-solid-svg-icons"
 import './styles/app.scss'
+import data from "./data"
 
 
 
