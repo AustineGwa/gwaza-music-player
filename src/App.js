@@ -5,8 +5,7 @@ import {FontAewsomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlay} from "@fortawesome/free-solid-svg-icons"
 import './styles/app.scss'
 import data from "./data"
-
-
+import Library from "./components/Library";
 
 function App() {
 
@@ -20,6 +19,7 @@ function App() {
        setIsPlaying={setIsPlaying}
        isPlaying={isPlaying}
        currentSong={currentSong}/>
+       <Library  songs={songs}/>
     </div>
   );
 }
